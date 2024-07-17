@@ -4,5 +4,6 @@ Bengalese finches are songbirds used as a model organism for human language lear
 
 # Instructions
 
-- See file fo-sp24-ml.py with all the code + intructions
+- Use feat_extraction_tutorial.ipynb to walk through the feature extraction process
+  - To see how acoustic features (Average Weiner Entropy, Spectral Entropy, Average Gravity Center, Average Spectral Width, Frequency of highest magnitude, Average MFCCs, Duration) were extracted, look at function extract_from_waveform() in final_ml.py 
 - use Orange Data Mining for testing different ML models
